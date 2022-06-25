@@ -1,0 +1,106 @@
+body{
+    background-image: url(/images/bg3.png);
+    overflow: hidden;
+}
+
+#logout{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 18px;
+    background-color:white;
+    border-radius: 5px;
+    padding: 5px;
+    color:rgb(47, 49, 74);
+    text-decoration-line: none;
+    float: right;
+    margin-right: 18px;
+    margin-bottom: 10px;
+}
+.table{
+    background-color: rgb(228, 228, 228);
+    float: right;
+    border-radius: 10px;
+    width: 1300px;
+    max-height: 578px;
+    background: rgba(25, 63, 80, 0.5);
+    text-align: center;
+
+    margin-top: 50px;
+    margin-right: 50px;
+  
+}
+table{
+    border-radius: 10px;
+    width: 1000px;
+    margin: auto;
+}
+table, th, td{
+    border: 1px solid;
+    padding: 5px;
+}
+th{
+    height: 30px;
+    background: rgb(30, 31, 49);
+    color: white;
+}
+td{
+    background: rgba(47, 49, 74, 0.7);
+    opacity: 90%;
+    color: white;
+}
+th, td{
+    border-radius: 3px;
+}
+.table #edit,#delete{
+    text-align: justify;
+    text-decoration: none;
+    background-color: white;
+    padding: 4px;
+    border-radius: 3px;
+    color: #000000;;}s
+.table #edit{
+    margin-left: 10px;
+}
+
+.editform{
+    background-color:rgba(35, 35, 47, 0.7); 
+    width: 400px;
+    height: 500px;
+    margin: auto;
+    margin-top: 30px;
+    border-radius: 5px;
+    padding-top: 20px;
+    padding-left: 30px;
+}
+.edittitle{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 30px;
+}
+.editform input{
+    width: 90%;
+    height: 30px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.editform label{
+    color: rgb(135, 135, 135);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+.editform #submit{
+    background-color: rgb(255, 255, 255);
+    width: 50%;
+    float: right;
+    height: 45px;
+    margin-right: 30px;
+    border-radius: 8px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.editform #submit:hover{
+    background-color: rgb(40, 37, 49);
+    color: white;
+}
+
+
+
+
